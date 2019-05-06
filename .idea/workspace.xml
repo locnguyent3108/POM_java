@@ -291,7 +291,7 @@
       <workItem from="1556940143245" duration="179000" />
       <workItem from="1556940417075" duration="183000" />
       <workItem from="1556941361826" duration="7198000" />
-      <workItem from="1557136581273" duration="772000" />
+      <workItem from="1557136581273" duration="1016000" />
     </task>
     <servers />
   </component>
@@ -328,12 +328,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26512000" />
+    <option name="totallyTimeSpent" value="26756000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="23" width="1440" height="842" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15164521" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15164521" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -350,7 +350,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32933334" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32933334" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
