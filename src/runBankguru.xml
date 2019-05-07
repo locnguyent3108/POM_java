@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <suite name="Bank guru" parallel="false">
-    <test name="Run on Chrome">
-        <parameter name="browser" value="chrome"/>
-        <classes>
-            <class
-                name ="testcases.Login_02_CreateAccountAndLoginToApplication_POM"/>
-        </classes>
-    </test>
+<!--    <test name="Run on Chrome">-->
+<!--        <parameter name="browser" value="chrome"/>-->
+<!--        <classes>-->
+<!--            <class-->
+<!--                name ="testcases.Login_02_CreateAccountAndLoginToApplication_POM"/>-->
+<!--        </classes>-->
+<!--    </test>-->
 
 <!--    <test name= "Run on Firefox">-->
 <!--        <parameter name="browser" value="firefox"/>-->
@@ -16,11 +16,11 @@
 <!--        </classes>-->
 <!--    </test>-->
 
-<!--    <test name= "Run on Chrome headless ">-->
-<!--        <parameter name="browser" value="chrome_headless"/>-->
-<!--        <classes>-->
-<!--            <class-->
-<!--                name ="testcases.Login_02_CreateAccountAndLoginToApplication_POM"/>-->
-<!--        </classes>-->
-<!--    </test>-->
+    <test name= "Run on Chrome headless ">
+        <parameter name="browser" value="chrome_headless"/>
+        <classes>
+            <class
+                name ="testcases.Login_02_CreateAccountAndLoginToApplication_POM"/>
+        </classes>
+    </test>
 </suite>

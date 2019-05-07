@@ -1,5 +1,9 @@
 package actions;
 
+import interfaces.EditCustomerPageUI;
+import interfaces.HomePageUI;
+import interfaces.NewAccountPageUI;
+import interfaces.NewCustomerPageUI;
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -10,6 +14,10 @@ import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import pageObjects.EditCustomerPageObject;
+import pageObjects.HomePageObject;
+import pageObjects.NewAccountPageObject;
+import pageObjects.NewCustomerPageObject;
 
 import java.net.PortUnreachableException;
 import java.nio.channels.SelectableChannel;
@@ -179,5 +187,30 @@ public class AbstractPage {
         number = random.nextInt();
         return number;
     }
+
+    public NewCustomerPageObject openNewCustomerPage (WebDriver driver) {
+        waitForControlVisible(driver, AbstractUI.NEW_CUSTOMER_PAGE_LINK);
+        clickToElement(driver,AbstractUI.NEW_CUSTOMER_PAGE_LINK);
+        return new NewCustomerPageObject(driver);
+    }
+
+    public NewAccountPageObject openNewAccountPage (WebDriver driver) {
+        waitForControlVisible(driver, AbstractUI.NEW_ACCOUNT_PAGE_LINK);
+        clickToElement(driver,AbstractUI.NEW_ACCOUNT_PAGE_LINK);
+        return new NewAccountPageObject(driver);
+    }
+
+    public EditCustomerPageObject openEditCustomerPage (WebDriver driver) {
+        waitForControlVisible(driver, AbstractUI.EDIT_CUSTOMER_PAGE_LINK);
+        clickToElement(driver, AbstractUI.EDIT_CUSTOMER_PAGE_LINK);
+        return new EditCustomerPageObject(driver);
+    }
+
+    public HomePageObject openHomePageObject (WebDriver driver) {
+        waitForControlVisible(driver, AbstractUI.HOME_PAGE_LINK);
+        clickToElement(driver, AbstractUI.HOME_PAGE_LINK);
+        return new HomePageObject(driver);
+    }
+
 
 }

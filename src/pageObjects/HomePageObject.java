@@ -15,4 +15,8 @@ public class HomePageObject extends AbstractPage {
         waitForControlVisible(driver, HomePageUI.WELCOME_MESSAGE);
         return isControlDisplayed(driver,HomePageUI.WELCOME_MESSAGE);
     }
+
+    public NewCustomerPageObject openNewCustomerPage () {
+        return super.openNewCustomerPage(driver);
+    }
 }
