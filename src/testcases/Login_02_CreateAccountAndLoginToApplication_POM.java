@@ -1,9 +1,6 @@
 package testcases;
 
-import actions.AbstractPage;
 import actions.AbstractTest;
-import io.github.bonigarcia.wdm.WebDriverManager;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
@@ -12,7 +9,6 @@ import pageObjects.*;
 
 
 import java.util.Random;
-import java.util.concurrent.TimeUnit;
 
 public class Login_02_CreateAccountAndLoginToApplication_POM extends AbstractTest {
     WebDriver driver;
@@ -41,7 +37,7 @@ public class Login_02_CreateAccountAndLoginToApplication_POM extends AbstractTes
 
     @Test
     public void TC_02_LoginWithAboveInformation () {
-        registerPageObjects = pageManageDriver.getRegisterPageObject(driver,registerPageObjects);
+        registerPageObjects = PageManageDriver.getRegisterPageObject(driver,registerPageObjects);
         loginPageObject = registerPageObjects.openLoginPage(loginUrl);
 
         loginPageObject.inputEmail(userId);

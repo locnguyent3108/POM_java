@@ -2,19 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef6b8202-29da-4567-8c18-ed2668eb77a4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/actions/AbstractUI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interfaces/EditCustomerPageUI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interfaces/NewAccountPageUI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interfaces/NewCustomerPageUI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pageObjects/EditCustomerPageObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pageObjects/NewAccountPageObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pageObjects/NewCustomerPageObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/POM_java/actions/AbstractPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/POM_java/actions/AbstractPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/POM_java/interfaces/HomePageUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/POM_java/interfaces/HomePageUI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/POM_java/pageObjects/HomePageObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/POM_java/pageObjects/HomePageObject.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/POM_java/runBankguru.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/POM_java/runBankguru.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/POM_java/testcases/Login_02_CreateAccountAndLoginToApplication_POM.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/POM_java/testcases/Login_02_CreateAccountAndLoginToApplication_POM.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/actions/AbstractPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions/AbstractPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interfaces/HomePageUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfaces/HomePageUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pageObjects/HomePageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pageObjects/HomePageObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pageObjects/pageManageDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pageObjects/pageManageDriver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/runBankguru.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/runBankguru.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pageObjects/pageManageDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pageObjects/PageManageDriver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/testcases/Login_02_CreateAccountAndLoginToApplication_POM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/testcases/Login_02_CreateAccountAndLoginToApplication_POM.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -56,10 +52,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pageObjects/pageManageDriver.java">
+        <entry file="file://$PROJECT_DIR$/src/interfaces/NewCustomerPageUI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+            <state relative-caret-position="51">
+              <caret line="3" column="23" selection-start-line="3" selection-end-line="4" />
             </state>
           </provider>
         </entry>
@@ -76,7 +72,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/runBankguru.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
@@ -86,30 +82,14 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pageObjects/NewCustomerPageObject.java">
+        <entry file="file://$PROJECT_DIR$/src/pageObjects/RegisterPageObjects.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="14" column="48" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
+            <state relative-caret-position="238">
+              <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#352#353#0" expanded="true" />
-                <element signature="e#400#401#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pageObjects/HomePageObject.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#238#239#0" expanded="true" />
-                <element signature="e#274#275#0" expanded="true" />
-                <element signature="e#525#526#0" expanded="true" />
-                <element signature="e#552#553#0" expanded="true" />
+                <element signature="e#252#253#0" expanded="true" />
+                <element signature="e#288#289#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -118,24 +98,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/testcases/Login_02_CreateAccountAndLoginToApplication_POM.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="65" column="44" lean-forward="true" selection-start-line="65" selection-start-column="44" selection-end-line="65" selection-end-column="44" />
+            <state relative-caret-position="71">
+              <caret line="39" column="42" lean-forward="true" selection-start-line="39" selection-start-column="42" selection-end-line="39" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/pageObjects/EditCustomerPageObject.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#343#344#0" expanded="true" />
-                <element signature="e#398#399#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -163,19 +129,20 @@
         <option value="$PROJECT_DIR$/src/interfaces/LoginPageUI.java" />
         <option value="$PROJECT_DIR$/src/pageObjects/LoginPageObject.java" />
         <option value="$PROJECT_DIR$/src/pageObjects/RegisterPageObjects.java" />
-        <option value="$PROJECT_DIR$/src/pageObjects/pageManageDriver.java" />
         <option value="$PROJECT_DIR$/src/interfaces/HomePageUI.java" />
         <option value="$PROJECT_DIR$/src/interfaces/NewCustomerPageUI.java" />
         <option value="$PROJECT_DIR$/src/interfaces/NewAccountPageUI.java" />
         <option value="$PROJECT_DIR$/src/interfaces/EditCustomerPageUI.java" />
         <option value="$PROJECT_DIR$/src/actions/AbstractUI.java" />
-        <option value="$PROJECT_DIR$/src/actions/AbstractPage.java" />
         <option value="$PROJECT_DIR$/src/pageObjects/EditCustomerPageObject.java" />
         <option value="$PROJECT_DIR$/src/pageObjects/HomePageObject.java" />
         <option value="$PROJECT_DIR$/src/pageObjects/NewAccountPageObject.java" />
         <option value="$PROJECT_DIR$/src/pageObjects/NewCustomerPageObject.java" />
-        <option value="$PROJECT_DIR$/src/runBankguru.xml" />
         <option value="$PROJECT_DIR$/src/testcases/Login_02_CreateAccountAndLoginToApplication_POM.java" />
+        <option value="$PROJECT_DIR$/src/pageObjects/pageManageDriver.java" />
+        <option value="$PROJECT_DIR$/src/pageObjects/PageManageDriver.java" />
+        <option value="$PROJECT_DIR$/src/actions/AbstractPage.java" />
+        <option value="$PROJECT_DIR$/src/runBankguru.xml" />
       </list>
     </option>
   </component>
@@ -318,8 +285,16 @@
       <workItem from="1556940417075" duration="183000" />
       <workItem from="1556941361826" duration="7198000" />
       <workItem from="1557136581273" duration="1016000" />
-      <workItem from="1557154662268" duration="5091000" />
+      <workItem from="1557154662268" duration="6978000" />
     </task>
+    <task id="LOCAL-00001" summary="update pageManageDrive&#10;Create WebDriver cycle for each page object in AbstractPage &#10;Remove create Driver on each page">
+      <created>1557225291406</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1557225291406</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -355,7 +330,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31847000" />
+    <option name="totallyTimeSpent" value="33734000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="841" extended-state="6" />
@@ -396,18 +371,22 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update pageManageDrive&#10;Create WebDriver cycle for each page object in AbstractPage &#10;Remove create Driver on each page" />
+    <option name="LAST_COMMIT_MESSAGE" value="update pageManageDrive&#10;Create WebDriver cycle for each page object in AbstractPage &#10;Remove create Driver on each page" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/actions/AbstractPage.java</url>
-          <line>193</line>
+          <line>191</line>
           <properties />
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/actions/AbstractPage.java</url>
-          <line>190</line>
+          <line>188</line>
           <properties class="actions.AbstractPage" method="openNewCustomerPage">
             <option name="EMULATED" value="true" />
           </properties>
@@ -454,18 +433,6 @@
           <caret line="34" column="1" lean-forward="true" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pageObjects/RegisterPageObjects.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#252#253#0" expanded="true" />
-            <element signature="e#288#289#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -547,13 +514,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/interfaces/NewCustomerPageUI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="23" selection-start-line="3" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/interfaces/NewAccountPageUI.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -585,14 +545,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pageObjects/NewAccountPageObject.java">
+    <entry file="file://$PROJECT_DIR$/src/testcases/Login_03_Validation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#353#354#0" expanded="true" />
-            <element signature="e#408#409#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -606,30 +564,6 @@
             <element signature="e#352#353#0" expanded="true" />
             <element signature="e#400#401#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pageObjects/pageManageDriver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/testcases/Login_03_Validation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/runBankguru.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="8" selection-end-column="15" />
         </state>
       </provider>
     </entry>
@@ -647,20 +581,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/actions/AbstractPage.java">
+    <entry file="file://$PROJECT_DIR$/src/interfaces/NewCustomerPageUI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="208" column="26" selection-start-line="208" selection-start-column="26" selection-end-line="208" selection-end-column="26" />
+        <state relative-caret-position="51">
+          <caret line="3" column="23" selection-start-line="3" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pageObjects/RegisterPageObjects.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#252#253#0" expanded="true" />
+            <element signature="e#288#289#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/testcases/Login_02_CreateAccountAndLoginToApplication_POM.java">
+    <entry file="file://$PROJECT_DIR$/src/pageObjects/PageManageDriver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="65" column="44" lean-forward="true" selection-start-line="65" selection-start-column="44" selection-end-line="65" selection-end-column="44" />
+        <state relative-caret-position="445">
+          <caret line="59" column="38" lean-forward="true" selection-start-line="59" selection-start-column="38" selection-end-line="59" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pageObjects/NewAccountPageObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#353#354#0" expanded="true" />
+            <element signature="e#408#409#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/actions/AbstractPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="171" column="34" lean-forward="true" selection-start-line="171" selection-start-column="34" selection-end-line="171" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -669,13 +631,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pageObjects/EditCustomerPageObject.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="204">
+          <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#343#344#0" expanded="true" />
             <element signature="e#398#399#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/testcases/Login_02_CreateAccountAndLoginToApplication_POM.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="71">
+          <caret line="39" column="42" lean-forward="true" selection-start-line="39" selection-start-column="42" selection-end-line="39" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/runBankguru.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="8" selection-end-column="15" />
         </state>
       </provider>
     </entry>

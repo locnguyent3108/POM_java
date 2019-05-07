@@ -4,6 +4,7 @@ import interfaces.EditCustomerPageUI;
 import interfaces.HomePageUI;
 import interfaces.NewAccountPageUI;
 import interfaces.NewCustomerPageUI;
+import org.openqa.jetty.html.Page;
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -14,10 +15,7 @@ import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import pageObjects.EditCustomerPageObject;
-import pageObjects.HomePageObject;
-import pageObjects.NewAccountPageObject;
-import pageObjects.NewCustomerPageObject;
+import pageObjects.*;
 
 import java.net.PortUnreachableException;
 import java.nio.channels.SelectableChannel;
@@ -191,25 +189,25 @@ public class AbstractPage {
     public NewCustomerPageObject openNewCustomerPage (WebDriver driver) {
         waitForControlVisible(driver, AbstractUI.NEW_CUSTOMER_PAGE_LINK);
         clickToElement(driver,AbstractUI.NEW_CUSTOMER_PAGE_LINK);
-        return new NewCustomerPageObject(driver);
+        return PageManageDriver.newCustomerPageObject(driver);
     }
 
     public NewAccountPageObject openNewAccountPage (WebDriver driver) {
         waitForControlVisible(driver, AbstractUI.NEW_ACCOUNT_PAGE_LINK);
         clickToElement(driver,AbstractUI.NEW_ACCOUNT_PAGE_LINK);
-        return new NewAccountPageObject(driver);
+        return PageManageDriver.newAccountPageObject(driver);
     }
 
     public EditCustomerPageObject openEditCustomerPage (WebDriver driver) {
         waitForControlVisible(driver, AbstractUI.EDIT_CUSTOMER_PAGE_LINK);
         clickToElement(driver, AbstractUI.EDIT_CUSTOMER_PAGE_LINK);
-        return new EditCustomerPageObject(driver);
+        return PageManageDriver.editCustomerPageObject(driver);
     }
 
     public HomePageObject openHomePageObject (WebDriver driver) {
         waitForControlVisible(driver, AbstractUI.HOME_PAGE_LINK);
         clickToElement(driver, AbstractUI.HOME_PAGE_LINK);
-        return new HomePageObject(driver);
+        return PageManageDriver.homePageObject(driver);
     }
 
 
