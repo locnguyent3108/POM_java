@@ -56,6 +56,12 @@ public class AbstractPage {
         element.click();
     }
 
+    public void clickToElement (WebDriver driver,String locator, String... dynamicValue) {
+        locator = String.format(locator, (Object[]) dynamicValue);
+        WebElement element = driver.findElement(By.xpath(locator));
+        element.click();
+    }
+
     public void sendKeyToElement (WebDriver driver, String locator, String value) {
         WebElement element = driver.findElement(By.xpath(locator));
         element.sendKeys(value);
@@ -104,6 +110,12 @@ public class AbstractPage {
     }
 
     public boolean isControlDisplayed (WebDriver driver, String locator){
+        WebElement element = driver.findElement(By.xpath(locator));
+        return element.isDisplayed();
+    }
+
+    public  boolean isControlDisplayed (WebDriver driver, String locator, String... dynamicValue) {
+        locator = String.format(locator, (Object[]) dynamicValue);
         WebElement element = driver.findElement(By.xpath(locator));
         return element.isDisplayed();
     }
@@ -167,6 +179,12 @@ public class AbstractPage {
         WebDriverWait wait = new WebDriverWait(driver, 30);
         wait.until(ExpectedConditions.visibilityOfElementLocated(by));
     }
+    public void waitForControlVisible (WebDriver driver, String locator, String... dynamicValue) {
+        locator = String.format(locator,(Object[]) dynamicValue);
+        By by = By.xpath(locator);
+        WebDriverWait wait = new WebDriverWait(driver,30);
+        wait.until(ExpectedConditions.visibilityOfElementLocated(by));
+    }
 
     public void waitForControlClickAble (WebDriver driver, String locator) {
         By by = By.xpath(locator);
@@ -187,20 +205,20 @@ public class AbstractPage {
     }
 
     public NewCustomerPageObject openNewCustomerPage (WebDriver driver) {
-        waitForControlVisible(driver, AbstractUI.NEW_CUSTOMER_PAGE_LINK);
-        clickToElement(driver,AbstractUI.NEW_CUSTOMER_PAGE_LINK);
+        waitForControlVisible(driver, AbstractUI.DYNAMIC_PAGE_LINK, "New Customer");
+        clickToElement(driver,AbstractUI.NEW_CUSTOMER_PAGE_LINK,"New Customer");
         return PageManageDriver.newCustomerPageObject(driver);
     }
 
     public NewAccountPageObject openNewAccountPage (WebDriver driver) {
-        waitForControlVisible(driver, AbstractUI.NEW_ACCOUNT_PAGE_LINK);
-        clickToElement(driver,AbstractUI.NEW_ACCOUNT_PAGE_LINK);
+        waitForControlVisible(driver, AbstractUI.DYNAMIC_PAGE_LINK, "New Account");
+        clickToElement(driver,AbstractUI.DYNAMIC_PAGE_LINK, "New Account");
         return PageManageDriver.newAccountPageObject(driver);
     }
 
     public EditCustomerPageObject openEditCustomerPage (WebDriver driver) {
-        waitForControlVisible(driver, AbstractUI.EDIT_CUSTOMER_PAGE_LINK);
-        clickToElement(driver, AbstractUI.EDIT_CUSTOMER_PAGE_LINK);
+        waitForControlVisible(driver, AbstractUI.DYNAMIC_PAGE_LINK, "Edit Account");
+        clickToElement(driver, AbstractUI.DYNAMIC_PAGE_LINK,"Edit Account");
         return PageManageDriver.editCustomerPageObject(driver);
     }
 

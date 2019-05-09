@@ -48,7 +48,14 @@ public class Login_02_CreateAccountAndLoginToApplication_POM extends AbstractTes
 
         //Step 04 - Open New Customer Page -> return new customer page
         newCustomerPageObject =  homePageObject.openNewCustomerPage();
+        newCustomerPageObject.clickToDynamicTextBox("name");
+        newCustomerPageObject.clickToDynamicTextBox("city");
+        newCustomerPageObject.clickToDynamicTextBox("state");
 
+        //verify error message
+        newCustomerPageObject.isDynamicErrorMessageDisplayed("name", "Customer name must not be blank");
+        newCustomerPageObject.isDynamicErrorMessageDisplayed("city", "City Field must not be blank");
+       // newCustomerPageObject.isDynamicErrorMessageDisplayed("state", "State must not be blank");
         //Step 05 - Open New Account Page -> return New Account page
         newAccountPageObject = newCustomerPageObject.openNewAccountPage();
 
