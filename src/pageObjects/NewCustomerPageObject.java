@@ -24,6 +24,11 @@ public class NewCustomerPageObject extends AbstractPage {
         waitForControlVisible(driver,NewCustomerPageUI.DYNAMIC_TEXT_BOX,locator);
         isControlDisplayed(driver,NewCustomerPageUI.DYNAMIC_TEXT_BOX,locator);
         clickToElement(driver,NewCustomerPageUI.DYNAMIC_TEXT_BOX,locator);
+    }
 
+    public void inputToDynamicTextBox(String locator, String inputValue) {
+        waitForControlVisible(driver,NewCustomerPageUI.DYNAMIC_TEXT_BOX,locator);
+        isControlDisplayed(driver,NewCustomerPageUI.DYNAMIC_TEXT_BOX,locator);
+        sendKeyToElement(driver,NewCustomerPageUI.DYNAMIC_TEXT_BOX,inputValue,locator);
     }
 }

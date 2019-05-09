@@ -67,6 +67,12 @@ public class AbstractPage {
         element.sendKeys(value);
     }
 
+    public void sendKeyToElement (WebDriver driver, String locator, String inputValue, String... dynamicValue) {
+        locator = String.format(locator, (Object[]) dynamicValue);
+        WebElement element = driver.findElement(By.xpath(locator));
+        element.sendKeys(inputValue);
+    }
+
     public void selectItemInDropdown (WebDriver driver, String locator, String textItem) {
         WebElement element = driver.findElement(By.xpath(locator));
         Select select = new Select(element);
