@@ -5,3 +5,4 @@ public class NewCustomerPageUI {
     public static final String DYNAMIC_ERROR_MESSAGE = "//input[@name='%s']/following-sibling::label[text()='%s']";
     public static final String DYNAMIC_TEXT_BOX = "//input[@name='%s']";
 }
+ 

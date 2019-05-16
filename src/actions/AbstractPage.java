@@ -1,24 +1,16 @@
 package actions;
 
-import interfaces.EditCustomerPageUI;
-import interfaces.HomePageUI;
-import interfaces.NewAccountPageUI;
-import interfaces.NewCustomerPageUI;
-import org.openqa.jetty.html.Page;
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.interactions.Action;
 import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import pageObjects.*;
+import pageObjects.bankguru.*;
+import pageObjects.bankguru_po.*;
 
-import java.net.PortUnreachableException;
-import java.nio.channels.SelectableChannel;
 import java.util.List;
 import java.util.Random;
 import java.util.concurrent.TimeUnit;
@@ -185,6 +177,7 @@ public class AbstractPage {
         WebDriverWait wait = new WebDriverWait(driver, 30);
         wait.until(ExpectedConditions.visibilityOfElementLocated(by));
     }
+
     public void waitForControlVisible (WebDriver driver, String locator, String... dynamicValue) {
         locator = String.format(locator,(Object[]) dynamicValue);
         By by = By.xpath(locator);

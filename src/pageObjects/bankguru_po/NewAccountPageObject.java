@@ -1,7 +1,6 @@
-package pageObjects;
+package pageObjects.bankguru_po;
 
 import actions.AbstractPage;
-import interfaces.NewAccountPageUI;
 import org.openqa.selenium.WebDriver;
 
 public class NewAccountPageObject extends AbstractPage {

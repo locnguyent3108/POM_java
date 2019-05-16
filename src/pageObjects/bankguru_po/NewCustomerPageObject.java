@@ -1,4 +1,4 @@
-package pageObjects;
+package pageObjects.bankguru_po;
 
 import actions.AbstractPage;
 import interfaces.NewCustomerPageUI;
@@ -15,9 +15,9 @@ public class NewCustomerPageObject extends AbstractPage {
         return super.openNewAccountPage(driver);
     }
 
-    public void isDynamicErrorMessageDisplayed (String locator, String errorMessage) {
+    public boolean isDynamicErrorMessageDisplayed (String locator, String errorMessage) {
         waitForControlVisible(driver, NewCustomerPageUI.DYNAMIC_ERROR_MESSAGE, locator, errorMessage);
-        isControlDisplayed(driver, NewCustomerPageUI.DYNAMIC_ERROR_MESSAGE,locator, errorMessage);
+        return isControlDisplayed(driver, NewCustomerPageUI.DYNAMIC_ERROR_MESSAGE,locator, errorMessage);
     }
 
     public void clickToDynamicTextBox (String locator) {
