@@ -1,0 +1,12 @@
+{
+  "firstname": "Loc Nguyen",
+  "lastname" : "The",
+  "dob"      : "abc@gmail.com",
+  "cc": {
+      "number" : "1111-2222-4344-333",
+      "billing": "123 Le Thi thu Ha"
+  },
+  "product":{
+    "searchCriteria": "Sony Xperia"
+  }
+}

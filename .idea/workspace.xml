@@ -2,35 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef6b8202-29da-4567-8c18-ed2668eb77a4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/_Users_nguyenloc_IdeaProjects_POM_java_src_runBankguru_xml.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/bankGuru.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/log4j.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/util/ExtendReport/ExtendManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/util/ExtendReport/ExtendTestManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/util/Listener/AnnotationTransform.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/util/Listener/Retry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/util/Listener/TestListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/com_fasterxml_jackson_core_jackson_annotations_2_9_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/com_fasterxml_jackson_core_jackson_core_2_9_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/com_fasterxml_jackson_core_jackson_databind_2_9_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/com_google_code_gson_gson_2_8_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/testData/CustomerData.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/testData/customerData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/testData/customerDataJson.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/POM_java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/POM_java.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/POM_java/actions/AbstractPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/POM_java/actions/AbstractTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/POM_java/interfaces/HomePageUI.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/POM_java/interfaces/LoginPageUI.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/POM_java/interfaces/RegisterPageUI.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/POM_java/pageObjects/HomePageObject.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/POM_java/pageObjects/LoginPageObject.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/POM_java/pageObjects/RegisterPageObjects.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/POM_java/pageObjects/pageManageDriver.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/POM_java/runBankguru.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/POM_java/runBankguru.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/POM_java/testcases/Login_02_CreateAccountAndLoginToApplication_POM.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/POM_java/testcases/Login_03_Validation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/actions/AbstractPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions/AbstractPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/actions/AbstractTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions/AbstractTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/interfaces/NewCustomerPageUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfaces/NewCustomerPageUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pageObjects/NewCustomerPageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pageObjects/NewCustomerPageObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/runBankguru.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/runBankguru.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/testcases/Login_02_CreateAccountAndLoginToApplication_POM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/testcases/bankguru_Login/Login_02_CreateAccountAndLoginToApplication_POM.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/testcases/Login_03_Validation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/testcases/bankguru_Login/Login_03_Validation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/testcases/bankguru_Login/Login_02_CreateAccountAndLoginToApplication_POM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/testcases/bankguru_Login/Login_02_CreateAccountAndLoginToApplication_POM.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -45,36 +26,9 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/actions/AbstractUI.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/util/Listener/AnnotationTransform.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="32" selection-start-line="2" selection-start-column="32" selection-end-line="2" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/util/Listener/Retry.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/util/Listener/TestListener.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
+            <state>
               <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
             </state>
           </provider>
@@ -88,7 +42,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/actions/AbstractTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="969">
+            <state>
               <caret line="80" column="9" selection-start-line="80" selection-start-column="9" selection-end-line="80" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -104,7 +58,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/actions/AbstractPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1819">
+            <state>
               <caret line="175" selection-start-line="175" selection-end-line="175" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -142,20 +96,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/testcases/bankguru_Login/Login_02_CreateAccountAndLoginToApplication_POM.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/testcases/bankguru_Login/Login_03_Validation.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            <state relative-caret-position="-168">
+              <caret line="38" column="57" selection-start-line="38" selection-start-column="57" selection-end-line="38" selection-end-column="57" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -164,9 +106,51 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/testData/CustomerData.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="209">
+              <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/testData/customerDataJson.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="14" column="2" lean-forward="true" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/testcases/bankguru_Login/Login_03_Validation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/testData/customerData.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-7">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/testcases/bankguru_Login/DynamicLocator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
+            <state>
               <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
@@ -223,13 +207,16 @@
         <option value="$PROJECT_DIR$/src/com/bankguru/login/Login_03_Validation.java" />
         <option value="$PROJECT_DIR$/src/testcases/Login_03_Validation.java" />
         <option value="$PROJECT_DIR$/src/testcases/bankguru_Login/Login_03_Validation.java" />
+        <option value="$PROJECT_DIR$/src/testData/customerData.java" />
+        <option value="$PROJECT_DIR$/src/testcases/bankguru_Login/Login_02_CreateAccountAndLoginToApplication_POM.java" />
+        <option value="$PROJECT_DIR$/src/testData/CustomerData.json" />
+        <option value="$PROJECT_DIR$/src/testData/customerDataJson.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1440" />
-    <option name="height" value="841" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -256,13 +243,24 @@
               <item name="POM_java" type="b2602c69:ProjectViewProjectNode" />
               <item name="POM_java" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="actions" type="462c0819:PsiDirectoryNode" />
+              <item name="testcases" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="POM_java" type="b2602c69:ProjectViewProjectNode" />
               <item name="POM_java" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="testcases" type="462c0819:PsiDirectoryNode" />
               <item name="bankguru_Login" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="POM_java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="POM_java" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="testData" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="POM_java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
@@ -280,10 +278,10 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -355,6 +353,10 @@
       <workItem from="1557900012600" duration="4100000" />
       <workItem from="1557994484216" duration="2880000" />
       <workItem from="1558000561975" duration="310000" />
+      <workItem from="1558015331995" duration="190000" />
+      <workItem from="1558057892847" duration="3050000" />
+      <workItem from="1558084023572" duration="87000" />
+      <workItem from="1558084135960" duration="2662000" />
     </task>
     <task id="LOCAL-00001" summary="update pageManageDrive&#10;Create WebDriver cycle for each page object in AbstractPage &#10;Remove create Driver on each page">
       <created>1557225291406</created>
@@ -406,12 +408,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68147000" />
+    <option name="totallyTimeSpent" value="74136000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="841" extended-state="6" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16309012" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17167382" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -476,7 +479,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/actions/AbstractPage.java</url>
           <line>88</line>
-          <properties class="actions.AbstractPage" method="getAttributeValue">
+          <properties class="actions.AbstractPage">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="5" />
@@ -607,59 +610,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pageObjects/EditCustomerPageObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#343#344#0" expanded="true" />
-            <element signature="e#398#399#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pageObjects/LoginPageObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="36" column="42" selection-start-line="36" selection-start-column="42" selection-end-line="36" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pageObjects/NewAccountPageObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#353#354#0" expanded="true" />
-            <element signature="e#410#411#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pageObjects/PageManageDriver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="59" column="38" selection-start-line="59" selection-start-column="38" selection-end-line="59" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pageObjects/RegisterPageObjects.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#252#253#0" expanded="true" />
-            <element signature="e#288#289#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pageObjects/EditCustomerPageObject.java" />
+    <entry file="file://$PROJECT_DIR$/src/pageObjects/LoginPageObject.java" />
+    <entry file="file://$PROJECT_DIR$/src/pageObjects/NewAccountPageObject.java" />
+    <entry file="file://$PROJECT_DIR$/src/pageObjects/PageManageDriver.java" />
+    <entry file="file://$PROJECT_DIR$/src/pageObjects/RegisterPageObjects.java" />
     <entry file="jar://$USER_HOME$/Downloads/selenium-server-standalone-2.53.1.jar!/org/openqa/selenium/WebDriver.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="182">
@@ -667,34 +622,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pageObjects/HomePageObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="19" column="38" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#238#239#0" expanded="true" />
-            <element signature="e#274#275#0" expanded="true" />
-            <element signature="e#525#526#0" expanded="true" />
-            <element signature="e#581#582#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pageObjects/NewCustomerPageObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#259#260#0" expanded="true" />
-            <element signature="e#295#296#0" expanded="true" />
-            <element signature="e#352#353#0" expanded="true" />
-            <element signature="e#407#408#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pageObjects/HomePageObject.java" />
+    <entry file="file://$PROJECT_DIR$/src/pageObjects/NewCustomerPageObject.java" />
     <entry file="file://$PROJECT_DIR$/src/interfaces/NewCustomerPageUI.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="98">
@@ -750,14 +679,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/util/Listener/Retry.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
+        <state>
           <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/util/Listener/TestListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
+        <state>
           <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
         </state>
       </provider>
@@ -767,7 +696,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/actions/AbstractTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="969">
+        <state>
           <caret line="80" column="9" selection-start-line="80" selection-start-column="9" selection-end-line="80" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -781,7 +710,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/actions/AbstractPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1819">
+        <state>
           <caret line="175" selection-start-line="175" selection-end-line="175" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -815,27 +744,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/testcases/bankguru_Login/DynamicLocator.java">
+    <entry file="file://$PROJECT_DIR$/src/testcases/bankguru_Login/Login_03_Validation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/testcases/bankguru_Login/Login_02_CreateAccountAndLoginToApplication_POM.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        <state>
+          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/testcases/bankguru_Login/Login_03_Validation.java">
+    <entry file="file://$PROJECT_DIR$/src/testcases/bankguru_Login/DynamicLocator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        <state>
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/testData/customerData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/testcases/bankguru_Login/Login_02_CreateAccountAndLoginToApplication_POM.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-168">
+          <caret line="38" column="57" selection-start-line="38" selection-start-column="57" selection-end-line="38" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/testData/CustomerData.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/testData/customerDataJson.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="2" lean-forward="true" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -907,7 +860,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>io.github.bonigarcia:webdrivermanager:3.3.0</last-edited>
+          <last-edited>com.google.code.gson:gson:2.8.5</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
